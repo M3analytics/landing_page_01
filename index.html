@@ -1,92 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing page</title>
+    <title>Landing Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <!-- The header -->
-    <header>
+    <div class="layout">
         <div class="container">
-            <div class="logo">
-                <a href="#">Header logo</a>
-            </div>
-            <nav>
-                <ul>
-                    <li>header link 1</li>
-                    <li>header link 2</li>
-                    <li>header link 3</li>
+            <div class="header">
+                <div class="logo">Header Logo</div>
+                <ul class="links">
+                    <li><a href="#">Header link one</a></li>
+                    <li><a href="#">Header link two</a></li>
+                    <li><a href="#">Header link three</a></li>
                 </ul>
-            </nav>
-
-        </div>
-    </header>
-
-    <!-- main text -->
-
-    <div class="main-text">
-        <p>
-            <h1>This Website is Awesome</h1>
-        </p>
-        <div class="paragraph">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga earum voluptatum laboriosam ea mollitia quis ratione nobis eaque tenetur commodi. Neque itaque, error distinctio id rerum in quasi eius quis.
-            </p>
-        </div>
-        <!-- button -->
-        <div class="button">
-            <button type="submit">Click here</button>
-        </div>
-        <!-- image -->
-        <div class="image">
-            <img src="" alt="">
-            <div class="placeholder">This is a placeholder for an image</div>
-        </div>
-        <!-- content -->
-         <div class="title">Some Random Information</div>
-         <div class="container">
-            <div class="content">
-                <img src="" alt="">
-                <div class="text">This is some subtext under an illustration or image</div>
             </div>
-            <div class="content">
-                <img src="" alt="">
-                <div class="text">
-                    This is some subtext under an illustration or image
+
+            <div class="description">
+                <div class="title">
+                    <h1>This website is awesome</h1>
+                    <p>
+                        This website has some subtext that goes here under
+                        the main title. It's a smaller font and the color is 
+                        lower contrast
+                    </p>
+                    <button>Sign up</button>
                 </div>
-            <div class="content">
-                <img src="" alt="">
-                <div class="text">
-                    This is some subtext under an illustration or image
+
+                <div class="placeholder">
+                    <p>this is a placeholder for an image</p>
                 </div>
-            <div class="content">
-                <img src="" alt="">
-                <div class="text">
-                    This is some subtext under an illustration or image
             </div>
-         </div>
-         <div class="container">
-            <div class="text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam esse iure exercitationem asperiores, enim nemo, sit rerum totam vero ex adipisci itaque fugit quibusdam alias culpa voluptates qui temporibus debitis.
+        </div>
+        
+        <div class="info">
+            <h2>Some random information</h2>
+            <ul class="cards">
+                <li>
+                    <div class="card"></div>
+                    <p>
+                        this is some subtext under an
+                        illustration or image
+                    </p>
+                </li>
+                <li>
+                    <div class="card"></div>
+                    <p>
+                        this is some subtext under an
+                        illustration or image
+                    </p>
+                </li>
+                <li>
+                    <div class="card"></div>
+                    <p>
+                        this is some subtext under an
+                        illustration or image
+                    </p>
+                </li>
+                <li>
+                    <div class="card"></div>
+                    <p>
+                        this is some subtext under an
+                        illustration or image
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="quote">
+            <div class="quote-container">
+                <p class="quote-text">
+                    <em>
+                        This is an inspiring quote, or a testimonial from a customer. 
+                        Maybe it's just filling up space, or maybe people will actually
+                        read it. Who knows? All I know is that it looks nice.
+                    </em>
+                </p>
+                <p class="quote-author">-Thor, God of Thunder</p>
             </div>
-         </div>
-         <div class="action">
-            <div class="title"> Call to action! Its time!</div>
-            <div class="text">
-            <p>sign up for our product by clicking the button alongside</p>
         </div>
-        <div class="button">
-            <button type="submit">sign up</button>
+        
+        <div class="signup">
+            <div class="signup-container">
+                <div class="signup-text">
+                    <h4>Call action! It's time!</h4>
+                    <p>
+                        Sign up for our product by clicking that button right
+                        over there!
+                    </p>
+                </div>
+                <button class="signup-button">Sign up</button>
+            </div>
         </div>
-         </div>
-         <div class="footer">
-            <footer class="text">Copyright The Odin Project 2021</footer>
-         </div>
-         
+
+        <div class="footer">Copyright © The Odin Project 2021</div>
     </div>
-
 </body>
 </html>
